@@ -1,0 +1,74 @@
+.container {
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#display {
+    width: 300px;
+    height: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 0px -1px -1px -1px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 50px;
+}
+
+#clear, #zero {
+    width: 149.5px;
+    height: 74.25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-left: -1px;
+}
+
+#delete, #divide, #seven, #eight, #nine, #multiply, #four, #five,
+#six, #substract, #one, #two, #three, #plus, #dot, #equals{
+    width: 74.25px;
+    height: 74.25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-left: -1px;
+}
+
+#divide, #multiply, #substract, #plus, #equals {
+    margin-right: -1px;
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+}
+
+.row2, .row3, .row4, .row5 {
+    margin-top: -1px;
+}
+
+.row5 {
+    margin-bottom: -1px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none; 
+    font-size: 30px;
+}
+
